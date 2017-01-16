@@ -1,4 +1,4 @@
-package org.hsh.security.crypt.pgp.tools;
+package com.hsh.security.crypt.pgp.tools;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
@@ -42,8 +42,9 @@ import org.bouncycastle.openpgp.operator.bc.BcPGPDigestCalculatorProvider;
 import org.bouncycastle.openpgp.operator.bc.BcPublicKeyKeyEncryptionMethodGenerator;
 import org.bouncycastle.openpgp.operator.jcajce.JcePGPDataEncryptorBuilder;
 import org.bouncycastle.openpgp.operator.jcajce.JcePublicKeyKeyEncryptionMethodGenerator;
-import org.hsh.security.crypt.pgp.rfc4880.types.HashAlgorithmType;
-import org.hsh.security.crypt.pgp.rfc4880.types.SymmetricKeyAlgorithmType;
+
+import com.hsh.security.crypt.pgp.rfc4880.types.HashAlgorithmType;
+import com.hsh.security.crypt.pgp.rfc4880.types.SymmetricKeyAlgorithmType;
 
 public class PGPUtils {
 	private static final int[]	MASTER_KEY_CERTIFICATION_TYPES	= 

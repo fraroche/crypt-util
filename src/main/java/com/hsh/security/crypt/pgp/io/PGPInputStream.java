@@ -1,4 +1,4 @@
-package org.hsh.security.crypt.pgp.io;
+package com.hsh.security.crypt.pgp.io;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -28,12 +28,13 @@ import org.bouncycastle.openpgp.bc.BcPGPObjectFactory;
 import org.bouncycastle.openpgp.operator.PGPContentVerifierBuilderProvider;
 import org.bouncycastle.openpgp.operator.bc.BcPGPContentVerifierBuilderProvider;
 import org.bouncycastle.openpgp.operator.bc.BcPublicKeyDataDecryptorFactory;
-import org.hsh.security.crypt.pgp.rfc4880.types.CompressionAlgorithmType;
-import org.hsh.security.crypt.pgp.rfc4880.types.HashAlgorithmType;
-import org.hsh.security.crypt.pgp.rfc4880.types.MessageFormatType;
-import org.hsh.security.crypt.pgp.rfc4880.types.PublicKeyAlgorithmType;
-import org.hsh.security.crypt.pgp.rfc4880.types.SignatureType;
-import org.hsh.security.crypt.pgp.tools.PGPUtils;
+
+import com.hsh.security.crypt.pgp.rfc4880.types.CompressionAlgorithmType;
+import com.hsh.security.crypt.pgp.rfc4880.types.HashAlgorithmType;
+import com.hsh.security.crypt.pgp.rfc4880.types.MessageFormatType;
+import com.hsh.security.crypt.pgp.rfc4880.types.PublicKeyAlgorithmType;
+import com.hsh.security.crypt.pgp.rfc4880.types.SignatureType;
+import com.hsh.security.crypt.pgp.tools.PGPUtils;
 
 public class PGPInputStream extends InputStream {
 	public class UncipheringReport {

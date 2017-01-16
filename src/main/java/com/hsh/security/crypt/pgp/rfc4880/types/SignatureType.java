@@ -1,4 +1,4 @@
-package org.hsh.security.crypt.pgp.rfc4880.types;
+package com.hsh.security.crypt.pgp.rfc4880.types;
 
 import org.bouncycastle.openpgp.PGPSignature;
 

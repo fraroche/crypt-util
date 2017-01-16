@@ -1,4 +1,4 @@
-package org.hsh.security.crypt.pgp.io;
+package com.hsh.security.crypt.pgp.io;
 
 import java.io.InputStream;
 import java.io.OutputStream;
@@ -11,10 +11,11 @@ import org.bouncycastle.openpgp.PGPPublicKeyRingCollection;
 import org.bouncycastle.openpgp.PGPSecretKey;
 import org.bouncycastle.openpgp.PGPSecretKeyRingCollection;
 import org.bouncycastle.openpgp.PGPSignatureGenerator;
-import org.hsh.security.crypt.pgp.rfc4880.types.CompressionAlgorithmType;
-import org.hsh.security.crypt.pgp.rfc4880.types.HashAlgorithmType;
-import org.hsh.security.crypt.pgp.rfc4880.types.SymmetricKeyAlgorithmType;
-import org.hsh.security.crypt.pgp.tools.PGPUtils;
+
+import com.hsh.security.crypt.pgp.rfc4880.types.CompressionAlgorithmType;
+import com.hsh.security.crypt.pgp.rfc4880.types.HashAlgorithmType;
+import com.hsh.security.crypt.pgp.rfc4880.types.SymmetricKeyAlgorithmType;
+import com.hsh.security.crypt.pgp.tools.PGPUtils;
 
 public class PGPStreamFactory {
 	static {
