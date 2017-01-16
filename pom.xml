@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>fr.hsh.socle.security</groupId>
-	<artifactId>crypt-util</artifactId>
+	<groupId>org.hsh.socle.security</groupId>
+	<artifactId>gpg-stream</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<name>crypt-util</name>
+	<name>gpg-stream</name>
 
 	<build>
 		<plugins>
@@ -100,4 +100,5 @@
 			<version>4.11</version>
 		</dependency>
 	</dependencies>
+	<description>A simplified way to stream gpg ciphering on files build upon bouncy-castle solution.</description>
 </project>

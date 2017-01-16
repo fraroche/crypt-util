@@ -1,4 +1,4 @@
-package fr.hsh.socle.security.crypt.symetric;
+package org.hsh.security.crypt.symetric;
 
 import java.security.InvalidAlgorithmParameterException;
 import java.security.InvalidKeyException;

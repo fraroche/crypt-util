@@ -1,4 +1,4 @@
-package fr.hsh.socle.security.crypt.pgp.io;
+package org.hsh.security.crypt.pgp.io;
 
 import java.io.IOException;
 import java.io.OutputStream;
@@ -12,10 +12,9 @@ import org.bouncycastle.openpgp.PGPLiteralDataGenerator;
 import org.bouncycastle.openpgp.PGPPublicKey;
 import org.bouncycastle.openpgp.PGPSecretKey;
 import org.bouncycastle.openpgp.PGPSignatureGenerator;
-
-import fr.hsh.socle.security.crypt.pgp.rfc4880.types.CompressionAlgorithmType;
-import fr.hsh.socle.security.crypt.pgp.rfc4880.types.SymmetricKeyAlgorithmType;
-import fr.hsh.socle.security.crypt.pgp.tools.PGPUtils;
+import org.hsh.security.crypt.pgp.rfc4880.types.CompressionAlgorithmType;
+import org.hsh.security.crypt.pgp.rfc4880.types.SymmetricKeyAlgorithmType;
+import org.hsh.security.crypt.pgp.tools.PGPUtils;
 
 public class PGPOutputStream extends OutputStream {
 	private final static int			BUFFER_SIZE			= 1 << 16; // should always be power of 2

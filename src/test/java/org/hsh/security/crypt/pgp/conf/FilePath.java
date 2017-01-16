@@ -1,4 +1,4 @@
-package fr.hsh.socle.security.crypt.pgp.conf;
+package org.hsh.security.crypt.pgp.conf;
 
 public class FilePath {
 	public static final String SEC_KEY_ALICE = 		"secretKeys/alice.asc";

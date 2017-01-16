@@ -1,4 +1,4 @@
-package fr.hsh.socle.security.crypt.pgp.test;
+package org.hsh.security.crypt.pgp.test;
 
 import static org.junit.Assert.fail;
 
@@ -18,12 +18,11 @@ import org.bouncycastle.openpgp.PGPSecretKeyRingCollection;
 import org.bouncycastle.openpgp.PGPUtil;
 import org.bouncycastle.openpgp.bc.BcPGPPublicKeyRingCollection;
 import org.bouncycastle.openpgp.bc.BcPGPSecretKeyRingCollection;
+import org.hsh.security.crypt.pgp.conf.FilePath;
+import org.hsh.security.crypt.pgp.io.PGPInputStream;
+import org.hsh.security.crypt.pgp.io.PGPOutputStream;
+import org.hsh.security.crypt.pgp.io.PGPStreamFactory;
 import org.junit.Test;
-
-import fr.hsh.socle.security.crypt.pgp.conf.FilePath;
-import fr.hsh.socle.security.crypt.pgp.io.PGPInputStream;
-import fr.hsh.socle.security.crypt.pgp.io.PGPOutputStream;
-import fr.hsh.socle.security.crypt.pgp.io.PGPStreamFactory;
 
 public class TestCase {
 
